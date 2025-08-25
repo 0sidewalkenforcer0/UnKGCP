@@ -5,7 +5,7 @@ This repository contains the official implementation for the EMNLP 2025 paper:
 
 ## Overview
 
-This project provides implementations and experiments for reasoning over uncertain knowledge graphs, with an emphasis on statistical guarantees.
+This project provides implementations and experiments for reasoning over uncertain knowledge graphs with statistical guarantees.
 
 ## Backbone Models
 
@@ -30,11 +30,6 @@ Our work builds on three backbone models for uncertain knowledge graph reasoning
 You can download all datasets used in our experiments from the following link:
 
 https://1drv.ms/u/c/53E5DF60F4E3FFE8/EYFHc7ZRt-NAturvecIjUBMBG2xXgD3Ly0PNhIbzeOMONQ?e=hyC3Dr
-
-The data includes:
-- Knowledge graph triples for CN15K, NL27K, PPI5K, etc.
-- Uncertainty annotations and calibration sets for each dataset.
-- Preprocessed files for direct use in our code.
 
 Please extract the downloaded files into the corresponding `data` folder of each model directory (e.g., `UKGE-master/data`).
 
